@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Formulários</title>
+    <link rel='shortcut icon' href='../../static/img/logo.png' type='image/x-icon'>
+    <link rel='stylesheet' href='../../static/css/html/formularios.css'>
+</head>
+
+<body>
+
+    <main class='container flex-row-around'>
+
+        <form action='./formularios-cadastro.html' method='get' enctype='multipart/form-data' class='form'>
+            <h1>Área de Cadastro</h1>
+            <!-- Input Hidden -->
+            <input type='hidden' name='country' value='BR' id=''>
+
+            <fieldset class='fieldset'>
+                <legend>Dados Pessoais</legend>
+                <label class='label'>
+                    Nome Abreviado: <br>
+                    <input type='text' name='nome_completo' id='' class='input'>
+                </label>
+
+                <label class='label'>
+                    Gênero: <br>
+                    <input type='radio' name='sexo' id='' value='feminino'> Feminino
+                    <input type='radio' name='sexo' id='' value='masculino'> Masculino
+                    <input type='radio' name='sexo' id='' value='outro'> Outro
+                </label>
+
+                <label class='label'>
+                    Descrição: <br>
+                    <textarea name='descricao' id='' class='textarea'></textarea>
+                </label>
+
+                <label class='label'>
+                    Categoria: <br>
+                    <select name='categoria' id='' class='select'>
+                        <option value='1'>Categoria 1</option>
+                        <option value='2'>Categoria 2</option>
+                        <option value='3'>Categoria 3</option>
+                        <option value='4'>Categoria 4</option>
+                        <option value='5'>Categoria 5</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset class='fieldset'>
+                <legend>Outros Tipos de Input</legend>
+
+                <section class='flex-row-around'>
+                    <label class='label'>
+                        Cor: <br>
+                        <input type='color' name='color' id='' class='input-color'>
+                    </label>
+
+                    <label class='label'>
+                        Data: <br>
+                        <input type='date' name='date' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Data e Hora: <br>
+                        <input type='datetime-local' name='datetime-local' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Mês: <br>
+                        <input type='month' name='month' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Número: <br>
+                        <input type='number' name='number' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Progresso: <br>
+                        <input type='range' name='range' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Procurar: <br>
+                        <input type='search' name='search' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Telefone: <br>
+                        <input type='tel' name='tel' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Hora: <br>
+                        <input type='time' name='time' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Url: <br>
+                        <input type='url' name='url' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        E-mail: <br>
+                        <input type='email' name='url' id='' class='input-geral'>
+                    </label>
+
+                    <label class='label'>
+                        Password: <br>
+                        <input type='password' name='' id='' class='input-geral'>
+                    </label>
+                </section>
+
+            </fieldset>
+
+            <label class='label'>
+                <input type='checkbox' name='termo' id=''>
+                Eu declaro que li e aceito os <a href='./formularios-termos.html' target='_blank' class='termos-link'>
+                    <span class='span'>termos de uso</span></a>.
+            </label>
+
+            <button class='button'>Cadastrar</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
