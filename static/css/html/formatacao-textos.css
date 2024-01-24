@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.margim-tb {
+    margin: 3rem 0rem;
+}
+
+.padding-tb {
+    padding: 0.5rem 0rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
