@@ -1,0 +1,4 @@
+Estou escrevendo no arquivo.
+Estou adicionando um texto a mais no arquivo.
+Estou escrevendo no arquivo com with.
+Continuando a escrever no arquivo com with.
